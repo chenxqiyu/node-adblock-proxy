@@ -1,0 +1,5 @@
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem;
+
+自定义参数的用法示例 nodejs ./bin/proxy --host=192.168.0.1 --port=8080 --public=false --protocol=http
+
+https://www.codercto.com/soft/d/3555.html
